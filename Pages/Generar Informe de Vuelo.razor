@@ -1,0 +1,46 @@
+﻿@page "/informevuelo"
+
+<h3>Generar Informe de Vuelo</h3>
+
+<div></div>
+<div></div>
+<h6>Ingrese el numero de vuelo:</h6>
+
+<form>
+    <fieldset>
+
+        <div class="row content">
+            <div class="col-md-2">
+                <label for="idcliente">Numero de Vuelo</label>
+            </div>
+
+            <div class="col-md-4">
+                <input class="form-control" type="number" name="idcliente" id="idcliente">
+            </div>
+        </div>
+
+    </fieldset>
+</form>
+
+<div></div>
+
+<div class="row content">
+    <button type="submit" onclick="alert('Informe de Vuelo Generado');">Mostrar Informe de Vuelo</button>
+</div>
+
+<div>. </div>
+<div>Informe de Vuelo Aerolinea Final de la Pandemia:</div>
+<div>. </div>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Vuelo No.</th>
+            <th>Avion</th>
+            <th>Piloto</th>
+            <th>Destino</th>
+            <th>Fecha y Hora de Salida</th>
+            <th>Fecha y Hora de Llegada</th>
+        </tr>
+    </thead>
+</table>

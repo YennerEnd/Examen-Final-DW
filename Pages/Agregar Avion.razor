@@ -1,0 +1,51 @@
+﻿@page "/agregaravion"
+
+<h3>Agregar Avion</h3>
+
+<div></div>
+<div></div>
+
+<h6>Ingrese los datos del avion que desea agregar:</h6>
+
+<form>
+    <fieldset>
+
+        <div class="row content">
+            <div class="col-md-2">
+                <label for="idcliente">Numero de Avion</label>
+            </div>
+
+            <div class="col-md-4">
+                <input class="form-control" type="number" name="idcliente" id="idcliente">
+            </div>
+        </div>
+
+        <div class="row content">
+            <div class="col-md-2">
+                <label for="nombre">Aerolinea</label>
+            </div>
+
+            <div class="col-md-4">
+                <input class="form-control" type="text" name="nombre" id="nombre">
+            </div>
+        </div>
+
+        <div class="row content">
+            <div class="col-md-2">
+                <label for="telefono">Capacidad de Pasajeros</label>
+            </div>
+
+            <div class="col-md-4">
+                <input class="form-control" type="number" name="telefono" id="telefono">
+            </div>
+        </div>
+
+
+    </fieldset>
+</form>
+
+<div></div>
+
+<div class="row content">
+    <button type="submit" onclick="alert('Avion Agregado Exitosamente');">Agregar Avion</button>
+</div>
